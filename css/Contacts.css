@@ -1,0 +1,602 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    margin:0;
+    padding: 0;
+    
+}
+
+::-webkit-scrollbar {
+    background-color: none;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FF4500;
+}
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #FF4500;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+
+article:first-of-type {
+    width: 100%;
+    height: 695px;
+    background-image: url(../photo/adult-barbell-body-17840.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+article:first-of-type .HH {
+    display: inline-block;
+    padding: 5px 5px 5px 0;
+    transform: rotate(90deg);
+    color: aliceblue;
+    padding-top: 40px;
+    margin-top: 117px;
+    transform-origin: 56px;
+    font-size: 19px;
+}
+
+.head {
+    color: #fff;
+    margin: auto;
+    
+    font-size: 42px;
+    text-align: center;
+    line-height: 0;
+}
+.text1{
+    font-size: 30px;
+    
+    color:#FF4500 ;
+}
+.abc:hover{
+    text-decoration:underline;
+    color:#FF4500 ;
+}
+
+
+.Conf {
+    color:#FF4500 ;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 0;
+}
+.ah{
+    color:white;
+    text-decoration:none;
+    font-family: sans-serif;
+    }
+    .ah1{
+    color:#FF4500;
+    text-decoration:none;
+    font-family: sans-serif;
+    
+    }
+    .ah:hover{
+    transition: color 1s ease-in-out;
+        color:#FF4500;
+    text-decoration:none;
+    }
+
+.head .just,.give {
+    font-size: 75px;
+    line-height: 0;
+    
+}
+
+article:first-of-type ul.ro {
+    /* background-color: red;*/
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+}
+
+article:first-of-type ul.ro li {
+    padding: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+    color: #3a4350;
+    width: 50px;
+    cursor: default;
+}
+
+article:first-of-type ul.ro li:first-of-type {
+    border-right: 2px solid #FF4500;
+}
+
+article:first-of-type ul.ro li:hover {
+    border-right: 2px solid #FF4500;
+    color: #fff;
+    transition: color 0.3s ease-in-out;
+}
+
+.container {
+    width: 85%;
+    margin: auto
+}
+
+nav .logo {
+    position: absolute;
+    margin-top: 3px;
+    margin-left: -87px;
+    float: left;
+    padding: 20px
+}
+
+nav .menu {
+    float: left;
+    position: absolute;
+    margin-top: 12px;
+}
+
+nav .menu ul li {
+    float: left;
+    list-style: none;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    position: relative;
+}
+
+nav .menu ul li :hover,
+nav .menu ul li .home {
+    color: #FF4500;
+    transition: all 0.3s ease-in-out;
+
+}
+
+nav .menu ul{
+    margin-left: 321px;
+
+
+    padding: 20px;
+    float: left;
+    
+    
+}
+nav .menu ul li ul {
+    margin: 0;
+    margin: 0;
+    padding: 16px;
+}
+nav .menu ul li ul {
+    font-size: 50;
+    margin: 0;
+    margin: 0;
+    margin-top: 9px;
+    left: -85px;
+    padding: 16px;
+    width: 231px;
+    height: 400px;
+    float: none;
+    position: absolute;
+    background-color: #252d38;
+    border-bottom: 2px solid #FF4500;
+    visibility: hidden;
+}
+#profile:hover  .ele .Profile_1 ul{
+    visibility: visible;
+    transition: all 0.3 ease-in-out;
+}
+nav .menu ul li ul li {
+    float: left;
+    padding: 20px;
+    display: block; 
+    width: 280px;
+}
+nav .menu ul li ul div .ele ul li a  {
+    border-bottom:1px solid #3a4350;
+    color: #fff;
+    line-height: 2;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;   
+    font-weight: bold;
+}
+div .ele li ul li:hover a{
+    color:#f48460;
+    border-bottom:1px solid #FF4500;
+    transition: all 0.3s ease-in-out;
+}
+div .ele .Profile_1{
+    color:white;
+   
+    margin: -6px;
+}
+ #profile:hover, ul:hover .Profile_1{
+    visibility: visible;
+    color: #FF4500;
+    transition: all 0.3 ease-in-out;
+}
+#out{
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #FF4500;
+    cursor: pointer;
+
+}
+#out:hover{
+    background-color: #3a4350;
+    transition: all 0.3s ease-in-out;
+
+}
+nav .menu ul .ele li div ul  {
+    font-size: 50;
+    margin: 0;
+    margin: 0;
+    padding: 16px;
+    width: 235px;
+    height: 402px;
+    left: -19px;
+    float: none;
+    position: absolute;
+    background-color: #252d38;
+    border-bottom:2px solid #FF4500;
+    visibility: hidden;
+}
+nav .menu #profile {
+    margin-left: 131px;
+    float: right;
+    width: 20px;
+    height: 10px;
+   border-radius: 50px;
+   background-color: #252d38;
+    cursor: pointer;
+    visibility: visible;
+}
+nav .menu ul li div ul div li{
+    color: #fff;
+    line-height: 2;
+    border-bottom:1px solid #3a4350;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav .menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+   
+    
+}
+
+nav .menu a button{
+    border-radius: 50%;
+    width: 90px;
+    height:40px;
+    border: none;
+    margin-top: 24px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #FF4500
+}
+nav .menu button:hover{
+    background-color: #3a4350;
+    transition: all 0.3s ease-in-out;
+}
+.imgresponsive{
+    max-width:  160px;
+   
+}
+
+.sora{
+    position: relative;
+    
+}
+.container{
+    width: 85%;
+    margin: auto;
+     
+
+}
+.cl{
+    clear: both;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+/*Body*/
+
+#all{
+    width: 100%;
+	height:820px;
+    }
+#all #imgspan{
+    display: inline-block;
+    color: orange;
+    text-align: center;
+    height: 189px;
+    padding-left: 238px;
+}
+#all #Image_src1{
+    height: 822px;
+   background-image: url(../photo/Muscles.jpg);
+   background-size: cover;
+   background-position: center;
+   width: 50%;
+}
+#all #input_2{
+    background-color: transparent;
+	color:#E5E7E9;
+    outline: none;
+    border: none;
+	border-bottom:2px solid #E5E7E9;
+	width:250px;
+	font-size:30px;
+	margin-bottom:30px;
+	font-family:sans-serif;
+    height: 20%;
+    cursor: pointer;
+}
+#all #input_2:hover{
+	color:white;
+    border-bottom:2px solid #FF4500;
+    transition: all 0.3s ease-in-out;
+
+	
+}
+#all .login{
+    width: 50%;
+    float: right;
+    padding: 3px 70px;
+    height: 820px;
+    background: #252d38;
+}
+.BUT{
+    text-align: center;
+}
+.but_regl{
+    text-align: center;
+    margin-left: 140px;
+}
+
+#input_1{
+	float:left;
+    background-color: transparent;
+    color: #FF4500;
+    border: none;
+    outline: none;
+	font-size:25px;
+     margin-left:-10px;
+     cursor: pointer;
+}
+#input_3{
+	margin-left:90px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    outline: none;
+   font-size:25px;
+   cursor: pointer;
+}
+
+.divline{
+margin-left:40px;
+	height:2px;
+	background-color:transparent;
+	 margin-bottom: 20px;
+	width:140;
+}
+#divline2{
+	width:50%;
+	height:2px;
+	background-color:#FF4500;
+	
+}
+.tabelform{
+    margin-left: 38px;
+
+    
+}
+.labelform{
+	color:white;
+	display:block;
+font-size:30px;
+margin-bottom:30px;
+}
+	
+.button_2{
+	margin-left:450px;   
+    width: 90px;
+    height: 40px;
+    border: none;
+    margin-top: 24px;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #FF4500;
+    cursor: pointer;
+}
+.button_2:hover{
+	
+	background-color:transparent;
+	color:#FF4500;
+    transition:0.3s ease-in-out;	
+}
+#formlogin{
+	 visibility: hidden;
+	 display: none ;
+}
+
+
+/*footer*/
+
+.footer0 {
+    width: 100%;
+    height: 500px;
+    padding: 30px 0 0 0;
+    background-color: #252d38;
+}
+
+.footer0 .container10 .lo div {
+    margin-left: 10px;
+}
+
+.footer0 .container10 .lo {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-right: 48px;
+    margin-left: 70px;
+    font-weight: 700;
+    margin-top: 41px;
+}
+.footer0 .container10 .lo span {
+    background-color: #FF4500;
+    width: 4px;
+    height: 44px;
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.footer0 .container10 .lo span:first-of-type {
+    height: 10px;
+}
+
+.footer0 .container10 .lo span:nth-of-type(2) {
+    height: 20px;
+}
+
+.footer0 div section div {
+    font-size: 28px;
+    font-family: sans-serif;
+}
+
+.footer0 .card {
+    float: left;
+    margin: 29px 0px 0px 77px;
+    padding: 0;
+    width: 20%;
+}
+
+.card h4 {
+    color: #fff;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.card ul {
+    padding: 0;
+    margin-top: 37px;
+}
+
+.card ul .day {
+    list-style: none;
+    border-bottom: 1px solid #626262;
+    font-family: sans-serif;
+    color: #d3d7e3;
+    line-height: 34px;
+    padding: 0;
+}
+
+.card ul .day span {
+    float: right;
+    margin-left: 82px;
+}
+
+.cl {
+    clear: both;
+}
+
+footer .card2 {
+    float: left;
+    width: 20%;
+    padding: 20px;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 14px;
+    margin-right: 21px;
+}
+
+.card2 h4 {
+    color: #fff;
+    font-size: 21px;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.card2 ul {
+    list-style: none;
+    color: #d3d7e3;
+    line-height: 20px;
+    font-family: sans-serif;
+    padding: 8px;
+}
+
+.card2 ul i,
+.youtupe,
+.you {
+    color: #FF4500;
+}
+
+footer .card3 {
+    float: left;
+    padding: 20px;
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 43px;
+    width: 20%;
+}
+
+footer .card3 .final h4 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 21px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+
+footer .card3 .final h6 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0;
+    line-height: 47px;
+}
+
+footer .card3 i {
+    color: #FF4500;
+    line-height: 61px;
+    font-size: 45px;
+}
+
+.card3 .final p {
+    color: #d3d7e3;
+    font-size: 15px
+}
